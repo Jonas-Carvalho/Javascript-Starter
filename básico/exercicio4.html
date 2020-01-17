@@ -1,0 +1,31 @@
+<html>
+    <head>Exercicios</head>
+    <body>
+
+        <script>
+
+        function experiencia(anos) {
+            if (anos >= 0 && anos < 1) {
+                return "iniciante"
+            }
+            if (anos >= 1 && anos < 3) {
+                return "Intermediário"
+            }
+            if (anos >= 3 && anos < 6) {
+                return "Avançado"
+            } 
+            if (anos >= 7) {
+                return "Jedi Master"
+            } 
+            else {
+                return "Digite um número > 0"
+            }
+
+        }
+
+        var anosEstudo = 2;
+        console.log(experiencia(anosEstudo));
+
+        </script>
+    </body>
+</html>
